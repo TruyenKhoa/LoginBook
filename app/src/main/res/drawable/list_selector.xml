@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- State when an item is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#CCCCCC"/> <!-- Light gray -->
+        </shape>
+    </item>
+
+    <!-- State when an item is selected/focused -->
+    <item android:state_selected="true" android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFDD55"/> <!-- Yellowish -->
+        </shape>
+    </item>
+
+    <!-- Default state -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- White -->
+        </shape>
+    </item>
+
+</selector>
